@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Emergency Help Hub - Quick access to emergency contacts, first aid information and nearby emergency resources.">
+
+    <title>Emergency Help Hub</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- ==============================
+         NAVIGATION
+    =============================== -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+                🚨 Emergency Help Hub
+            </div>
+
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+
+                <li>
+                    <a href="#emergency">Emergency</a>
+                </li>
+
+                <li>
+                    <a href="#firstaid">First Aid</a>
+                </li>
+
+                <li>
+                    <a href="#nearby">Nearby Help</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+
+    <main>
+
+
+        <!-- ==============================
+             HERO
+        =============================== -->
+
+        <section id="home" class="hero">
+
+            <div class="hero-content">
+
+                <h1>
+
+                    Emergency Help,
+
+                    <span>
+                        When You Need It.
+                    </span>
+
+                </h1>
+
+
+                <p>
+
+                    Quick access to emergency contacts,
+                    first-aid information and nearby
+                    emergency resources.
+
+                </p>
+
+
+                <div class="hero-buttons">
+
+                    <a href="#emergency"
+                       class="btn emergency-btn">
+
+                        🚨 Emergency Help
+
+                    </a>
+
+
+                    <a href="#firstaid"
+                       class="btn firstaid-btn">
+
+                        🩹 First Aid
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ==============================
+             SOS
+        =============================== -->
+
+        <section class="sos-section">
+
+            <div class="sos-content">
+
+                <div class="sos-icon">
+                    🚨
+                </div>
+
+
+                <h2>
+                    Need Emergency Help?
+                </h2>
+
+
+                <p>
+
+                    Quickly contact emergency services
+                    when immediate assistance is required.
+
+                </p>
+
+
+                <a href="tel:112"
+                   class="sos-button">
+
+                    📞 CALL 112
+
+                </a>
+
+
+                <p class="sos-note">
+
+                    Use this only for genuine emergencies.
+
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ==============================
+             EMERGENCY CONTACTS
+        =============================== -->
+
+        <section id="emergency"
+                 class="section">
+
+            <h2>
+                Emergency Contacts
+            </h2>
+
+
+            <p class="section-description">
+
+                Quick access to important
+                emergency services.
+
+            </p>
+
+
+            <div class="emergency-grid">
+
+
+                <div class="emergency-card">
+
+                    <div class="icon">
+                        🚓
+                    </div>
+
+                    <h3>
+                        Police
+                    </h3>
+
+                    <p>
+                        Emergency Police Assistance
+                    </p>
+
+                    <a href="tel:112"
+                       class="call-btn">
+
+                        Call 112
+
+                    </a>
+
+                </div>
+
+
+
+                <div class="emergency-card">
+
+                    <div class="icon">
+                        🚑
+                    </div>
+
+                    <h3>
+                        Ambulance
+                    </h3>
+
+                    <p>
+                        Medical Emergency Assistance
+                    </p>
+
+                    <a href="tel:112"
+                       class="call-btn">
+
+                        Call 112
+
+                    </a>
+
+                </div>
+
+
+
+                <div class="emergency-card">
+
+                    <div class="icon">
+                        🔥
+                    </div>
+
+                    <h3>
+                        Fire Department
+                    </h3>
+
+                    <p>
+                        Fire and Rescue Emergency
+                    </p>
+
+                    <a href="tel:112"
+                       class="call-btn">
+
+                        Call 112
+
+                    </a>
+
+                </div>
+
+
+
+                <div class="emergency-card">
+
+                    <div class="icon">
+                        🆘
+                    </div>
+
+                    <h3>
+                        National Emergency
+                    </h3>
+
+                    <p>
+                        General Emergency Assistance
+                    </p>
+
+                    <a href="tel:112"
+                       class="call-btn">
+
+                        Call 112
+
+                    </a>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ==============================
+             FIRST AID
+        =============================== -->
+
+        <section id="firstaid"
+                 class="section firstaid-section">
+
+            <h2>
+                First Aid Information
+            </h2>
+
+
+            <p class="section-description">
+
+                Basic information for common
+                emergency situations.
+
+            </p>
+
+
+            <div class="firstaid-grid">
+
+
+                <div class="firstaid-card">
+
+                    <div class="icon">
+                        🩸
+                    </div>
+
+                    <h3>
+                        Bleeding
+                    </h3>
+
+                    <p>
+
+                        Learn basic steps to respond
+                        to bleeding while waiting
+                        for professional help.
+
+                    </p>
+
+                    <button
+                        onclick="showInfo('bleeding')">
+
+                        Learn More
+
+                    </button>
+
+                </div>
+
+
+
+                <div class="firstaid-card">
+
+                    <div class="icon">
+                        🔥
+                    </div>
+
+                    <h3>
+                        Burns
+                    </h3>
+
+                    <p>
+
+                        Learn basic first-aid information
+                        for burn injuries.
+
+                    </p>
+
+                    <button
+                        onclick="showInfo('burns')">
+
+                        Learn More
+
+                    </button>
+
+                </div>
+
+
+
+                <div class="firstaid-card">
+
+                    <div class="icon">
+                        😵
+                    </div>
+
+                    <h3>
+                        Fainting
+                    </h3>
+
+                    <p>
+
+                        Understand what to do when
+                        someone becomes unconscious
+                        or faints.
+
+                    </p>
+
+                    <button
+                        onclick="showInfo('fainting')">
+
+                        Learn More
+
+                    </button>
+
+                </div>
+
+
+
+                <div class="firstaid-card">
+
+                    <div class="icon">
+                        🫀
+                    </div>
+
+                    <h3>
+                        CPR
+                    </h3>
+
+                    <p>
+
+                        Learn about emergency response
+                        and CPR awareness.
+
+                    </p>
+
+                    <button
+                        onclick="showInfo('cpr')">
+
+                        Learn More
+
+                    </button>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ==============================
+             NEARBY HELP
+        =============================== -->
+
+        <section id="nearby"
+                 class="section nearby-section">
+
+            <h2>
+                Find Nearby Help
+            </h2>
+
+
+            <p class="section-description">
+
+                Allow location access to find
+                useful emergency resources near you.
+
+            </p>
+
+
+            <button
+                class="location-btn"
+                onclick="getLocation()">
+
+                📍 Use My Location
+
+            </button>
+
+
+            <div id="location-result"></div>
+
+
+            <div class="nearby-resources">
+
+
+                <!-- Hospital -->
+
+                <div class="resource-card">
+
+                    <div class="resource-icon">
+                        🏥
+                    </div>
+
+                    <h3>
+                        Hospitals
+                    </h3>
+
+                    <p>
+                        Find hospitals near your location.
+                    </p>
+
+                    <button
+                        onclick="findNearby('hospital')">
+
+                        Find Hospitals
+
+                    </button>
+
+                </div>
+
+
+
+                <!-- Pharmacy -->
+
+                <div class="resource-card">
+
+                    <div class="resource-icon">
+                        💊
+                    </div>
+
+                    <h3>
+                        Pharmacies
+                    </h3>
+
+                    <p>
+                        Find nearby pharmacies.
+                    </p>
+
+                    <button
+                        onclick="findNearby('pharmacy')">
+
+                        Find Pharmacies
+
+                    </button>
+
+                </div>
+
+
+
+                <!-- Police -->
+
+                <div class="resource-card">
+
+                    <div class="resource-icon">
+                        🚓
+                    </div>
+
+                    <h3>
+                        Police Stations
+                    </h3>
+
+                    <p>
+                        Find police stations nearby.
+                    </p>
+
+                    <button
+                        onclick="findNearby('police station')">
+
+                        Find Police
+
+                    </button>
+
+                </div>
+
+
+
+                <!-- Fire -->
+
+                <div class="resource-card">
+
+                    <div class="resource-icon">
+                        🚒
+                    </div>
+
+                    <h3>
+                        Fire Stations
+                    </h3>
+
+                    <p>
+                        Find nearby fire stations.
+                    </p>
+
+                    <button
+                        onclick="findNearby('fire station')">
+
+                        Find Fire Stations
+
+                    </button>
+
+                </div>
+
+
+
+                <!-- Blood Bank -->
+
+                <div class="resource-card">
+
+                    <div class="resource-icon">
+                        🩸
+                    </div>
+
+                    <h3>
+                        Blood Banks
+                    </h3>
+
+                    <p>
+                        Find blood banks near you.
+                    </p>
+
+                    <button
+                        onclick="findNearby('blood bank')">
+
+                        Find Blood Banks
+
+                    </button>
+
+                </div>
+
+
+
+                <!-- Ambulance -->
+
+                <div class="resource-card">
+
+                    <div class="resource-icon">
+                        🚑
+                    </div>
+
+                    <h3>
+                        Ambulance
+                    </h3>
+
+                    <p>
+                        Find ambulance services nearby.
+                    </p>
+
+                    <button
+                        onclick="findNearby('ambulance service')">
+
+                        Find Ambulance
+
+                    </button>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- ==============================
+         FOOTER
+    =============================== -->
+
+    <footer>
+
+        <h3>
+            🚨 Emergency Help Hub
+        </h3>
+
+
+        <p>
+            Quick access to emergency information
+            and resources.
+        </p>
+
+
+        <p>
+            ⚠️ This website is for informational
+            purposes and does not replace
+            professional emergency services.
+        </p>
+
+
+        <p>
+            © 2026 Emergency Help Hub
+        </p>
+
+    </footer>
+
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
